@@ -787,7 +787,38 @@
 
         <section class="contact-form">
 
+
           <div class="separator"></div>
+
+          <section class="contact-form">
+
+            <h3 class="h3 form-title">Contact Form</h3>
+  
+            <form action="https://api.web3forms.com/submit" method="POST" class="form" data-form>
+
+              <input type="hidden" name="access_key" value="ec540070-e500-47f2-8f56-81ad63b3e53e">
+  
+              <div class="input-wrapper">
+                <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+  
+                <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+              </div>
+  
+              <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+              <input type="hidden" name="redirect" value="https://web3forms.com/success">
+  
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+  
+            </form>
+  
+          </section>
+
+          <div class="separator"></div>
+
 
           <h3 class="h3 form-title">Contact Information</h3>
 
